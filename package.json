@@ -1,16 +1,27 @@
 {
-  "name": "dms",
+  "name": "Naaae",
   "version": "0.1.0",
   "private": true,
+  "main": "main.js",
+  "homepage": "./",
   "dependencies": {
+    "@material-ui/core": "^4.10.2",
+    "@material-ui/icons": "^4.9.1",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "find-process": "^1.4.3",
+    "lodash.throttle": "^4.1.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "redux": "^4.0.5"
   },
   "scripts": {
+    "electron": "electron .",
+    "electron-dev": "ELECTRON_START_URL=http://localhost:3000 electron .",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -30,5 +41,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "electron": "^9.0.4"
   }
 }
